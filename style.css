@@ -1,0 +1,141 @@
+/* Style de base pour le corps */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff; /* Arrière-plan blanc */
+    margin: 0;
+    padding: 0px;
+    font-size: 15px;
+}
+
+/* Conteneur principal pour le CV */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff; /* Arrière-plan blanc */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête avec photo à gauche et texte centré */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px; /* Espace en bas de l'en-tête */
+
+}
+
+/* Style pour la photo de profil */
+.profile-pic {
+    margin-right: 20px; /* Espace entre la photo et le texte */
+}
+
+/* Style pour l'image de profil */
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px; /* Largeur de la photo */
+    height: auto;
+}
+
+/* Centrer le texte dans l'en-tête */
+.text-center {
+    text-align: center; /* Centrer le texte */
+    flex-grow: 1; /* Permet d'utiliser tout l'espace disponible */
+}
+
+h1 {
+    font-size: 2rem;
+    color: #343a40;
+    margin: 0; /* Enlever le margin par défaut */
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #343a40; /* Texte en noir */
+    margin: 0; /* Enlever le margin par défaut */
+}
+
+/* Style pour chaque section */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style pour les titres des sections */
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+/* Style pour les descriptions de poste */
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #333; /* Texte en noir */
+}
+
+/* Style pour les listes non ordonnées */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff; /* Arrière-plan blanc */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-left: 3px solid #333; /* Bordure noire */
+}
+.languages-container {
+    margin-top: 20px;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.language {
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px; /* Réglez la taille de police ici */
+}
+
+.language-name {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 12px; /* Réglez la taille de police ici */
+}
+
+.progressbar {
+    flex: 3;
+    height: 10px;
+    background-color: #fff; /* Arrière-plan blanc */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: black; /* Progression en noir */
+}
+
+.percentage {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
